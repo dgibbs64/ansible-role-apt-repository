@@ -1,18 +1,14 @@
 galaxy_info:
-  author: Petr Korobeinikov
+  author: Daniel Gibbs
   description: Apt repository installation.
-  issue_tracker_url: https://github.com/pkorobeinikov/ansible-role-apt-repository
+  issue_tracker_url: https://github.com/dgibbs64/ansible-role-apt-repository
   github_branch: master
   license: "license (BSD, MIT)"
   min_ansible_version: 2.0
 
   platforms:
     - name: Ubuntu
-      versions:
-        - trusty
     - name: Debian
-      versions:
-        - jessie
 
   galaxy_tags:
     - apt
