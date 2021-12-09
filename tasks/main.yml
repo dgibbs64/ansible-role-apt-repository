@@ -11,4 +11,4 @@
 
 - name: update apt cache
   apt: update_cache=yes
-  when: result.stdout == "changed"
+  when: result == "changed"
